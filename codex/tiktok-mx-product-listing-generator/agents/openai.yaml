@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok MX Listing Generator"
+  short_description: "Build Mexico TikTok Shop listing workbooks."
+  default_prompt: "Use $tiktok-mx-product-listing-generator to create a Mexico TikTok Shop listing workbook from my product image and Seller Center template."

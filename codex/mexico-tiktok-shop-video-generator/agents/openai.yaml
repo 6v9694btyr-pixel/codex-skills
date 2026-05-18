@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mexico TikTok Video Generator"
+  short_description: "Generate Mexico TikTok Shop videos."
+  default_prompt: "Use $mexico-tiktok-shop-video-generator to generate a Mexico TikTok Shop product video with Seedance 2.0."

@@ -1,0 +1,44 @@
+﻿[
+    {
+        "source":  "codex",
+        "name":  "mexico-tiktok-shop-fast-video-generator",
+        "vaultRelativePath":  "codex\\mexico-tiktok-shop-fast-video-generator",
+        "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-fast-video-generator",
+        "syncedAt":  "2026-05-18T17:42:51.2252634+08:00"
+    },
+    {
+        "source":  "codex",
+        "name":  "mexico-tiktok-shop-storyboard",
+        "vaultRelativePath":  "codex\\mexico-tiktok-shop-storyboard",
+        "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-storyboard",
+        "syncedAt":  "2026-05-18T17:42:51.3213201+08:00"
+    },
+    {
+        "source":  "codex",
+        "name":  "mexico-tiktok-shop-video-generator",
+        "vaultRelativePath":  "codex\\mexico-tiktok-shop-video-generator",
+        "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-video-generator",
+        "syncedAt":  "2026-05-18T17:42:51.4726592+08:00"
+    },
+    {
+        "source":  "codex",
+        "name":  "tiktok-mx-product-listing-generator",
+        "vaultRelativePath":  "codex\\tiktok-mx-product-listing-generator",
+        "installPath":  "%USERPROFILE%\\.codex\\skills\\tiktok-mx-product-listing-generator",
+        "syncedAt":  "2026-05-18T17:42:51.7300808+08:00"
+    },
+    {
+        "source":  "agents",
+        "name":  "gepeto",
+        "vaultRelativePath":  "agents\\gepeto",
+        "installPath":  "%USERPROFILE%\\.agents\\skills\\gepeto",
+        "syncedAt":  "2026-05-18T17:42:51.7812939+08:00"
+    },
+    {
+        "source":  "agents",
+        "name":  "pinokio",
+        "vaultRelativePath":  "agents\\pinokio",
+        "installPath":  "%USERPROFILE%\\.agents\\skills\\pinokio",
+        "syncedAt":  "2026-05-18T17:42:51.8228412+08:00"
+    }
+]

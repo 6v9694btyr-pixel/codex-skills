@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mexico TikTok Fast Video Generator"
+  short_description: "Storyboard and stitch TikTok videos."
+  default_prompt: "Use $mexico-tiktok-shop-fast-video-generator to create a storyboard board image, then generate a Mexico TikTok Shop product video as 3 Seedance 1.5 Pro segments stitched into one final video while referencing the supplied product images."

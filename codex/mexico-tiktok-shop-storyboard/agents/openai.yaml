@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mexico TikTok Shop Storyboard"
+  short_description: "Mexico TikTok Shop 3x3 storyboards."
+  default_prompt: "Use $mexico-tiktok-shop-storyboard to create a 3x3 TikTok Shop product storyboard for a perfume launch in Mexico."
