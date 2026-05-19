@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mexico TikTok Shop Batch Video Producer"
+  short_description: "Batch-produce localized Mexico TikTok Shop videos"
+  default_prompt: "Use $mexico-tiktok-shop-batch-video-producer to batch-produce Mexico TikTok Shop videos from these product images."
+policy:
+  allow_implicit_invocation: true

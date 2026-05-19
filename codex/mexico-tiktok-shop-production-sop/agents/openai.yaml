@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mexico TikTok Shop Production SOP"
+  short_description: "Plan localized Mexico TikTok Shop video production"
+  default_prompt: "Use $mexico-tiktok-shop-production-sop to plan a Mexico TikTok Shop short-video production workflow for this product."
+policy:
+  allow_implicit_invocation: true
