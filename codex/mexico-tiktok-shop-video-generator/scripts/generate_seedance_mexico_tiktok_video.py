@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import base64
 import json
+import mimetypes
 import os
 import subprocess
 import time
@@ -79,13 +81,60 @@ def extract_video_url(payload: dict) -> str:
     return ""
 
 
-def submit_task(endpoint: str, api_key: str, model: str, spec: dict) -> str:
+def is_url(value: str) -> bool:
+    return value.startswith(("http://", "https://", "data:"))
+
+
+def image_to_data_url(path: Path) -> str:
+    mime_type = mimetypes.guess_type(str(path))[0] or "image/png"
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
+def build_image_content_item(reference: str | dict, base_dir: Path) -> dict:
+    role = "reference_image"
+    if isinstance(reference, str):
+        source = reference
+    elif isinstance(reference, dict):
+        source = reference.get("url") or reference.get("path") or reference.get("image_url") or ""
+        role = reference.get("role") or role
+    else:
+        raise TypeError(f"Unsupported image reference: {reference!r}")
+
+    if not source:
+        raise ValueError(f"Image reference is missing url/path: {reference!r}")
+
+    if is_url(source):
+        url = source
+    else:
+        image_path = Path(source)
+        if not image_path.is_absolute():
+            image_path = base_dir / image_path
+        if not image_path.exists():
+            raise FileNotFoundError(f"Reference image not found: {image_path}")
+        url = image_to_data_url(image_path)
+
+    item = {"type": "image_url", "image_url": {"url": url}}
+    if role:
+        item["role"] = role
+    return item
+
+
+def build_content(spec: dict, base_dir: Path) -> list[dict]:
+    content = [{"type": "text", "text": spec["prompt"]}]
+    references = spec.get("reference_images") or spec.get("input_images") or spec.get("images") or []
+    for reference in references:
+        content.append(build_image_content_item(reference, base_dir))
+    return content
+
+
+def submit_task(endpoint: str, api_key: str, model: str, spec: dict, base_dir: Path) -> str:
     duration = int(spec.get("duration", spec.get("duration_seconds", 15)))
     if duration > 15:
         raise ValueError("Seedance 2.0 supports a maximum of 15 seconds per single task. Confirm compression or segmentation first.")
     body = {
         "model": model,
-        "content": [{"type": "text", "text": spec["prompt"]}],
+        "content": build_content(spec, base_dir),
         "resolution": spec.get("resolution", "720p"),
         "ratio": spec.get("ratio", "9:16"),
         "duration": duration,
@@ -198,7 +247,7 @@ def main() -> None:
     if not silent_video.exists() or silent_video.stat().st_size <= 1000:
         if not task_id:
             print(f"Submitting one Seedance task with model={model}, duration={spec.get('duration', spec.get('duration_seconds', 15))}s")
-            task_id = submit_task(endpoint, api_key, model, spec)
+            task_id = submit_task(endpoint, api_key, model, spec, spec_path.parent)
             task_file.write_text(json.dumps({"task_id": task_id}, ensure_ascii=False, indent=2), encoding="utf-8")
         result = wait_and_download(endpoint, api_key, task_id, silent_video, task_file)
     else:
