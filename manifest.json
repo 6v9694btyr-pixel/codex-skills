@@ -4,69 +4,69 @@
         "name":  "grid9",
         "vaultRelativePath":  "codex\\grid9",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\grid9",
-        "syncedAt":  "2026-06-16T12:11:52.4848218+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.3020169+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-product-video",
         "vaultRelativePath":  "codex\\mexico-tiktok-product-video",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-product-video",
-        "syncedAt":  "2026-06-16T12:11:52.5347688+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.3541155+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-batch-video-producer",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-batch-video-producer",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-batch-video-producer",
-        "syncedAt":  "2026-06-16T12:11:52.6143688+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.4316311+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-fast-video-generator",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-fast-video-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-fast-video-generator",
-        "syncedAt":  "2026-06-16T12:11:52.7611483+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.5936198+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-production-sop",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-production-sop",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-production-sop",
-        "syncedAt":  "2026-06-16T12:11:52.8416765+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.6824418+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-storyboard",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-storyboard",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-storyboard",
-        "syncedAt":  "2026-06-16T12:11:52.9220640+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.7706204+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-video-generator",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-video-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-video-generator",
-        "syncedAt":  "2026-06-16T12:11:53.0523014+08:00"
+        "syncedAt":  "2026-06-16T18:42:47.9335952+08:00"
     },
     {
         "source":  "codex",
         "name":  "tiktok-mx-product-listing-generator",
         "vaultRelativePath":  "codex\\tiktok-mx-product-listing-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\tiktok-mx-product-listing-generator",
-        "syncedAt":  "2026-06-16T12:11:53.3088555+08:00"
+        "syncedAt":  "2026-06-16T18:42:48.2097318+08:00"
     },
     {
         "source":  "agents",
         "name":  "gepeto",
         "vaultRelativePath":  "agents\\gepeto",
         "installPath":  "%USERPROFILE%\\.agents\\skills\\gepeto",
-        "syncedAt":  "2026-06-16T12:11:53.3608730+08:00"
+        "syncedAt":  "2026-06-16T18:42:48.2596478+08:00"
     },
     {
         "source":  "agents",
         "name":  "pinokio",
         "vaultRelativePath":  "agents\\pinokio",
         "installPath":  "%USERPROFILE%\\.agents\\skills\\pinokio",
-        "syncedAt":  "2026-06-16T12:11:53.4055798+08:00"
+        "syncedAt":  "2026-06-16T18:42:48.3006228+08:00"
     }
 ]
