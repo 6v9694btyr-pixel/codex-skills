@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "Mexico Video Replication"
+  short_description: "Mexico TikTok video replication"
+  default_prompt: "Use $mexico-video-replication to turn my product images and TikTok benchmark into a Mexico-localized 9:16 selling video workflow."
+policy:
+  allow_implicit_invocation: true
