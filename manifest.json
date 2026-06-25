@@ -4,83 +4,83 @@
         "name":  "douyin-video-replication",
         "vaultRelativePath":  "codex\\douyin-video-replication",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\douyin-video-replication",
-        "syncedAt":  "2026-06-24T11:02:11.6968374+08:00"
+        "syncedAt":  "2026-06-25T10:07:42.6718953+08:00"
     },
     {
         "source":  "codex",
         "name":  "grid9",
         "vaultRelativePath":  "codex\\grid9",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\grid9",
-        "syncedAt":  "2026-06-24T11:02:11.7574979+08:00"
+        "syncedAt":  "2026-06-25T10:07:42.7221597+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-product-video",
         "vaultRelativePath":  "codex\\mexico-tiktok-product-video",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-product-video",
-        "syncedAt":  "2026-06-24T11:02:11.8042982+08:00"
+        "syncedAt":  "2026-06-25T10:07:42.7635250+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-batch-video-producer",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-batch-video-producer",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-batch-video-producer",
-        "syncedAt":  "2026-06-24T11:02:11.8985792+08:00"
+        "syncedAt":  "2026-06-25T10:07:42.8337403+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-fast-video-generator",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-fast-video-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-fast-video-generator",
-        "syncedAt":  "2026-06-24T11:02:12.0891710+08:00"
+        "syncedAt":  "2026-06-25T10:07:42.9865296+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-production-sop",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-production-sop",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-production-sop",
-        "syncedAt":  "2026-06-24T11:02:12.1797771+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.0686237+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-storyboard",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-storyboard",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-storyboard",
-        "syncedAt":  "2026-06-24T11:02:12.2838599+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.1570249+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-tiktok-shop-video-generator",
         "vaultRelativePath":  "codex\\mexico-tiktok-shop-video-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-tiktok-shop-video-generator",
-        "syncedAt":  "2026-06-24T11:02:12.4576314+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.3086002+08:00"
     },
     {
         "source":  "codex",
         "name":  "mexico-video-replication",
         "vaultRelativePath":  "codex\\mexico-video-replication",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\mexico-video-replication",
-        "syncedAt":  "2026-06-24T11:02:12.6461771+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.6476723+08:00"
     },
     {
         "source":  "codex",
         "name":  "tiktok-mx-product-listing-generator",
         "vaultRelativePath":  "codex\\tiktok-mx-product-listing-generator",
         "installPath":  "%USERPROFILE%\\.codex\\skills\\tiktok-mx-product-listing-generator",
-        "syncedAt":  "2026-06-24T11:02:12.9523633+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.8934494+08:00"
     },
     {
         "source":  "agents",
         "name":  "gepeto",
         "vaultRelativePath":  "agents\\gepeto",
         "installPath":  "%USERPROFILE%\\.agents\\skills\\gepeto",
-        "syncedAt":  "2026-06-24T11:02:12.9976801+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.9373273+08:00"
     },
     {
         "source":  "agents",
         "name":  "pinokio",
         "vaultRelativePath":  "agents\\pinokio",
         "installPath":  "%USERPROFILE%\\.agents\\skills\\pinokio",
-        "syncedAt":  "2026-06-24T11:02:13.0352029+08:00"
+        "syncedAt":  "2026-06-25T10:07:43.9769714+08:00"
     }
 ]
